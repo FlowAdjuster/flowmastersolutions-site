@@ -1,0 +1,105 @@
+/* ========= FlowMaster Corporate Styles ========= */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f8fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #0d2240;
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #e9f0ff, #bed4ff);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #0d2240;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Sections */
+.section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.section h2 {
+    font-size: 32px;
+    color: #0d2240;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #0d2240;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
