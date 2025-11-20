@@ -1,0 +1,11 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.vsidx
+*.vspscc
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
